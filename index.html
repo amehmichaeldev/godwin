@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Godwin Dave Entertament </title>
+    <!----custom css link-->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="img/ochedev.jpg" rel="icon">
+      <!----custom boxicons link-->
+      <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <!----custom remixicons link-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" >
+    
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-9151e50d-ee50-46d5-94e9-4c9aee8f771b" data-elfsight-app-lazy></div>
+</head>
+<body>
+    <header>
+        <p class="logo">Entertament</p>
+
+        <ul class="navlist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+			     <li><a href="https://www.youtube.com/results?search_query=date+rush+live+on+tv3+today" target="blank_seif">Music</a></li>
+            <li><a href="video.html" target="blank_seif">Videos</a></li>
+			  <li><a href="https://www.youtube.com/results?search_query=gh+one+duevt" target="blank_seif">Movies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <!-- https://www.youtube.com/results?search_query=date+rush+live+on+tv3+today  -->
+	<!--https://www.youtube.com/results?search_query=gh+one+duevt  -->
+    <section class="hero"> 
+        <div class="hero-text">
+                <br><br><br><br>
+                <img class="devv" src="img/godwind.png" alt="Godwin">
+         <br><br><br>
+         <h1> welcome!<br> Get the best Entertament </h1>
+		  <h3 class="ch bbt">Subscribe  more  <a href="contact.html" style="background-color:red;">Subscribe Now</a></h3> 
+		    <p>Get the best Entertament here, like  and share my website to friends and familys </p>
+			<center> 
+			 <a href="" style="background-color:red" class="bt">Click To earn Cash</a>   <a href="" style="background-color:  rgb(46, 63, 61);" class="bt">Download App</a>
+			</center>
+			  <br><br>
+
+         <br><br>
+
+       <br>
+         <a href="contact.html" >contact us</a>
+         <a href="new video.html" class="ctaa"><i class="ri-play-fill" target="blank_seif"></i>watch free videos</a>
+         <br><br><br>
+        </div>
+      
+
+        <div class="hero-img">
+            <img src="img/godwind.png" alt="Godwin">
+        </div>
+    </section>
+  
+   
+    <div class="icons">
+        <a href="https://24b2f92957b4490b9010cb6d352d38ad.elf.site"><i class="ri-youtube-line"></i></a>
+        <a href=""><i class="ri-instagram-line"></i></a>
+        <a href=""><i class="ri-facebook-line"></i></a>
+        <a href=""><i class="ri-whatsapp-line"></i></a>
+    </div>
+
+
+<!--custom js link-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!--custom js link-->
+
+
+<script>
+let menu = document.querySelector('#menu-icon');
+let navlist = document.querySelector('.navlist');
+
+menu.onclick = () => {
+    menu.classList.toggle('bx-x');
+ navlist.classList.toggle('open');
+};
+const sr = scrollReveal ({
+distance: '65px',
+duration: 2600,
+delay: 450,
+reset: true
+});
+sr.reveal('.hero-text',{delay:200, origin:'top'});
+sr.reveal('.hero-img',{delay:450, origin:'top'});
+sr.reveal('.icons',{delay:500, origin:'left'});
+</script>
+</body>
+</html>
